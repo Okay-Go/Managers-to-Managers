@@ -1,0 +1,194 @@
+/*
+Theme Name: Managers to Managers
+Author: Elijah
+Author URI: http://nobodyishere.com
+Version: 1.1
+*/
+
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.body {
+    background: linear-gradient(to top, #FFFFFF, #CFD7D9) no-repeat;
+    font: 14px Arial, serif;
+}
+.wrapper {
+    overflow: hidden;
+    width: 780px;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 165px;
+    border-bottom: 1px solid #939598;
+    padding: 40px 27px 40px 0;
+    margin-bottom: 25px;
+    margin-left: 2px;
+}
+.header a {
+    float: left;
+    text-decoration: none;
+}
+.logo-title {
+    display: inline-block;
+    width: 118px;
+    position: relative;
+    bottom: 25px;
+    left:-8px;
+    font: 21px 'Myriad Pro', sans-serif;
+    color: #939598;
+}
+.header-nav {
+    float: right;
+    padding: 37px 0;
+}
+.header-nav li {
+    display: inline-block;
+    margin-left: 55px;
+}
+.header-nav a {
+    font: 15px Arial, serif;
+    color: #939597;
+    text-decoration:none;
+    padding: 0 2px;
+}
+.header-nav a:hover {
+    color: #45B7FA;
+}
+.header-nav ul li.current-menu-item a:link,
+.header-nav ul li.current-menu-item a:visited {
+    color: #45B7FA;
+}
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar {
+    width:230px;
+    margin-right: 20px;
+    float:left;
+}
+.sidebar h3 {
+    font: 20px Arial, serif;
+    background: url('images/arrow.png') no-repeat 100%;
+    display: inline-block;
+    padding-right: 20px;
+    color: #03A7FD;
+    cursor: pointer;
+}
+.sidebar-nav {
+    padding: 35px 0 0;
+}
+.sidebar-nav li {
+    border-top: 1px solid #CBCAC9;
+    padding: 9px 0;
+    list-style: inside url('images/list-arrow.png');
+    cursor: pointer;	
+}
+.sidebar-nav li:first-child {
+    border: none;
+}
+.sidebar-nav a {
+    text-decoration: none;
+    color: #555555;
+    font: 14px Arial, serif;
+}
+.sidebar-nav a:hover {
+    color: #45B7FA;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content {
+    overflow: hidden;
+}
+.article-title {
+    font: normal 26px Arial, serif;
+    margin: 45px 0 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #00A7FB;
+}
+article p {
+    color: #444444;
+    font: 14px Arial, serif;
+    padding: 15px 0;
+    text-align: justify;
+    line-height: 18px;
+}
+.secondary-title {
+    margin-top: 30px;
+    color: #03A7FD;
+    font: 18px Arial, serif;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer {
+    margin-top: 90px;
+    margin-left: 2px;
+    padding: 10px 0 30px 10px;
+    border-top: 1px solid #B5B6B7;
+}
+.footer p {
+    color: #77797B;
+    font: 10px Arial, serif;
+}
+.footer a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
